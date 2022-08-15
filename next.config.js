@@ -3,4 +3,8 @@ module.exports = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  swcMinify: true,
+  compiler: {
+    removeConsole: true,
+  },
 };
