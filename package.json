@@ -10,7 +10,7 @@
     "prepare": "husky install && husky set .husky/pre-commit \"npx pretty-quick --staged\""
   },
   "dependencies": {
-    "@apollo/client": "^3.7.1",
+    "@apollo/client": "^3.7.2",
     "deepmerge": "^4.2.2",
     "graphql": "^16.6.0",
     "lodash": "^4.17.21",
